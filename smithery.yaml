@@ -1,0 +1,6 @@
+# Smithery configuration for genpark-sobel-canny-edge-detector-skill
+name: genpark-sobel-canny-edge-detector-skill
+version: 1.0.0
+runtime: python
+entrypoint: mcp_server.py
+type: stdio
