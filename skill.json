@@ -1,0 +1,9 @@
+{
+  "schema_version": "v1",
+  "name": "genpark-sobel-canny-edge-detector-skill",
+  "version": "1.0.0",
+  "description": "Sobel gradient operator, 2D convolution kernel filtering, and double-threshold Canny edge detection.",
+  "entrypoint": "client.py",
+  "mcp_server": "mcp_server.py",
+  "category": "Service"
+}
