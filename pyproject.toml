@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-sobel-canny-edge-detector-skill"
+version = "1.0.0"
+description = "Sobel gradient operator, 2D convolution kernel filtering, and double-threshold Canny edge detection."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "AlphaPark Team", email = "engineering@alphapark.ai"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Scientific/Engineering :: Image Processing"
+]
+
+[project.urls]
+Homepage = "https://github.com/alphaparkinc/genpark-sobel-canny-edge-detector-skill"
+Repository = "https://github.com/alphaparkinc/genpark-sobel-canny-edge-detector-skill.git"
+Issues = "https://github.com/alphaparkinc/genpark-sobel-canny-edge-detector-skill/issues"
